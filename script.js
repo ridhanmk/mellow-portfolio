@@ -48,6 +48,7 @@ document.addEventListener("DOMContentLoaded", () => {
             const formData = new FormData();
             formData.append("entry.370089765", document.getElementById("name").value);
             formData.append("entry.1154428744", document.getElementById("email").value);
+            formData.append("entry.1673399565", document.getElementById("mobile").value);
             formData.append("entry.2127871152", document.getElementById("message").value);
             
             const dateVal = document.getElementById("date").value;
