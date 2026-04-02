@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mellew.ads | Wedding Company</title>
+    <meta name="description" content="Professional wedding photography and videography by mellew.ads.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">mellew.ads</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="hero" class="hero-section">
+        <div class="hero-content">
+            <!-- User Logo Placeholder -->
+            <div class="hero-logo-text" id="main-logo">
+                <div class="main-logo-text">mellew<span>.ads</span></div>
+                <div class="sub-logo-text">WEDDING COMPANY</div>
+            </div>
+            
+            <p class="hero-subtitle">Capturing Your Timeless Moments</p>
+            <a href="#portfolio" class="cta-btn fade-in-up">Discover Our Work</a>
+        </div>
+        <div class="scroll-indicator">
+            <span class="mouse"></span>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section glass-section">
+        <div class="container section-container">
+            <div class="section-title fade-in">
+                <h2>About Us</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-grid">
+                <div class="about-text fade-in-up">
+                    <p>At <strong>mellew.ads</strong>, we believe that every love story is unique and deserves to be told with elegance and authenticity. We are a premier wedding photography and videography team dedicated to capturing the raw emotion, natural beauty, and unforgettable moments of your special day.</p>
+                    <p>With a documentary approach combined with artistic direction, we ensure that your memories are preserved in a cinematic and timeless way.</p>
+                </div>
+                <!-- Profile Image -->
+                <div class="about-image fade-in-up">
+                    <img src="assets/profile.png" alt="mellew.ads Photographer" onerror="this.src=''; this.className='image-placeholder'">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>Our Portfolio</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="portfolio-grid">
+                <!-- Grid Items dynamically loaded or hardcoded -->
+                <div class="portfolio-item fade-in-up">
+                    <img src="assets/wedding1.png" alt="Wedding Couple 1">
+                    <div class="portfolio-overlay">
+                        <h3>Cinematic Love</h3>
+                    </div>
+                </div>
+                <div class="portfolio-item fade-in-up">
+                    <img src="assets/wedding2.png" alt="Wedding Couple 2">
+                    <div class="portfolio-overlay">
+                        <h3>Timeless Moments</h3>
+                    </div>
+                </div>
+                <div class="portfolio-item fade-in-up">
+                    <img src="assets/wedding3.png" alt="Wedding Details">
+                    <div class="portfolio-overlay">
+                        <h3>Elegant Details</h3>
+                    </div>
+                </div>
+                <div class="portfolio-item fade-in-up">
+                    <img src="assets/wedding4.png" alt="Wedding Ceremony">
+                    <div class="portfolio-overlay">
+                        <h3>Grand Celebrations</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section glass-section">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>Our Services</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="services-grid">
+                <div class="service-card fade-in-up">
+                    <i class="icon">📷</i>
+                    <h3>Photography</h3>
+                    <p>High-resolution, beautifully retouched images that look like they belong in a magazine.</p>
+                </div>
+                <div class="service-card fade-in-up">
+                    <i class="icon">🎥</i>
+                    <h3>Videography</h3>
+                    <p>Cinematic films capturing vows, speeches, and the energy of the dance floor in 4K resolution.</p>
+                </div>
+                <div class="service-card fade-in-up">
+                    <i class="icon">🚁</i>
+                    <h3>Drone Coverage</h3>
+                    <p>Breathtaking aerial views of your venue to elevate your wedding film to the next level.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>Let's Connect</h2>
+                <div class="underline"></div>
+                <p class="contact-subtitle">We would love to hear about your upcoming wedding. Drop us an inquiry.</p>
+            </div>
+            <form id="contactForm" class="contact-form glass-panel fade-in-up">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" required placeholder="Jane & John">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required placeholder="contact@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="date">Wedding Date</label>
+                    <input type="date" id="date">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message details</label>
+                    <textarea id="message" rows="5" required placeholder="Tell us about your special day..."></textarea>
+                </div>
+                <button type="submit" class="submit-btn" id="submitBtn">Send Inquiry</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-logo">mellew.ads</div>
+            <p>&copy; 2026 mellew.ads WEDDING COMPANY. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#">Instagram</a>
+                <a href="#">Vimeo</a>
+                <a href="#">Facebook</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Contact Confirmation Modal -->
+    <div id="confirmationModal" class="modal-overlay">
+        <div class="modal-content glass-panel">
+            <h3 class="modal-title">Thank You!</h3>
+            <p class="modal-desc">Your message has been received successfully. We will get back to you shortly.</p>
+            <button id="closeModalBtn" class="cta-btn">Close</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
