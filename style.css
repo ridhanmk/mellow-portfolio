@@ -457,7 +457,7 @@ footer {
     letter-spacing: 2px;
 }
 
-footer p {
+footer p, .footer-info {
     color: var(--text-secondary);
     font-size: 0.9rem;
 }
